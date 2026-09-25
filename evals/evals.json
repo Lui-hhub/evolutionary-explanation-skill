@@ -1,0 +1,23 @@
+{
+  "skill_name": "evolutionary-explanation",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Explain how a frontend framework such as React works to someone who knows HTML, CSS, and basic JavaScript but has never used a framework.",
+      "expected_output": "The explanation starts from manual DOM updates, shows their limitations, and progressively introduces components, state, routing, data fetching, and tooling using a connected example.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Explain why a distributed cache is useful and how a production design evolves from a simple in-memory cache.",
+      "expected_output": "The explanation starts from repeated database reads, introduces a simple cache, demonstrates stale data and capacity limitations, then introduces invalidation, expiration, distribution, and trade-offs.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Give me a short definition of polymorphism in object-oriented programming.",
+      "expected_output": "A concise definition is given without forcing a long evolutionary tutorial because the request is simple and narrow.",
+      "files": []
+    }
+  ]
+}
